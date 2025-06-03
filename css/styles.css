@@ -1,0 +1,169 @@
+/* General layout for centering content */
+.center-content {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 900px; /* Set a maximum width for centered content */
+}
+
+/* Ensure text is justified */
+.justify-content {
+    text-align: justify;
+}
+
+/* Left align specific sections */
+.left-align h3 {
+    text-align: left;
+}
+
+/* Author and Unit styles */
+.author {
+    display: flex;
+    justify-content: center; /* Center author names */
+    align-items: center;
+    flex-wrap: wrap; /* Ensure authors wrap to next line if necessary */
+    margin: 10px 0;
+}
+
+.author-name {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+/* Author link styles */
+.author-link {
+    color: #009dff; /* Highlight color */
+    text-decoration: none; /* Remove underline */
+}
+
+.author-link:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.superscript {
+    font-size: 0.8em;
+    vertical-align: super;
+}
+
+.affiliation {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.affiliation p {
+    margin: 5px 0;
+}
+
+/* Code link styles */
+.code-link {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+.code-link a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.code-link a:hover {
+    text-decoration: underline;
+}
+
+.code-link button {
+    background-color: #333333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px; /* Increase the border-radius to make the corners more rounded */
+}
+
+.code-link button:hover {
+    background-color: #333333;
+}
+
+/* Page header and basic formatting */
+header h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+/* Section formatting */
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1em;
+    text-align: justify; /* Ensure text is justified */
+}
+
+/* Centering image styles */
+.center-image {
+    display: block;   /* Makes the image a block element */
+    margin-left: auto;  /* Auto left margin */
+    margin-right: auto; /* Auto right margin */
+    max-width: 100%; /* Ensure the image doesn't overflow */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Specific width for abstract section */
+.abstract-content {
+    max-width: 600px; /* Set a specific maximum width for abstract */
+}
+
+/*############################ Specific width for video section ############################*/
+.video-content {
+    max-width: 1360px; /* Set a specific maximum width for abstract */
+}
+
+/* Video container styles */
+.video-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center items */
+    gap: 0px; /* Adjust the gap as needed */
+}
+
+.video-container figure {
+    position: relative; /* Position figures relatively */
+    text-align: center; /* Center the caption text */
+    margin: 0; /* Remove default margin */
+    border: 0.5px solid #000; /* Add border to each figure */
+    padding: 0px; /* Add padding inside the border */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* 标题位置：左上角 */
+.video-title {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.4); /* 背景颜色，可以根据需要调整 */
+    color: white; /* 文字颜色 */
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px; /* 可选，增加圆角效果 */
+}

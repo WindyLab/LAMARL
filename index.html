@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMARL: LLM-Aided Multi-Agent Reinforcement Learning for Cooperative Policy Generation</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="center-content">
+        <h1>LAMARL: LLM-Aided Multi-Agent Reinforcement Learning for Cooperative Policy Generation</h1>
+        <div class="author">
+            <span class="author-name"><a class="author-link">Guobin Zhu</a><sup class="superscript">1,2</sup></span>
+            <span class="author-name"><a class="author-link">Rui Zhou</a><sup class="superscript">1</sup></span>
+            <span class="author-name"><a class="author-link">Wenkang Ji</a><sup class="superscript">2</sup></span>
+            <span class="author-name"><a href="https://www.westlake.edu.cn/faculty/shiyu-zhao.html" class="author-link">Shiyu Zhao</a><sup class="superscript">2</sup></span>
+        </div>
+        <div class="affiliation">
+            <p><sup>1</sup> School of Automation Science and Electrical Engineering, Beihang University, Beijing, China</p>
+            <p><sup>2</sup> WINDY Lab, Department of Artificial Intelligence at Westlake University, Hangzhou, China</p>
+        </div>
+        <div class="code-link">
+            <button onclick="window.open('https://github.com/Guobin-Zhu/MARL-LLM', '_blank')">Code</button>
+            <button onclick="window.open('https://youtu.be/HoYk70Ksy8w', '_blank')">Video</button>
+        </div>
+    </header>
+    <section id="abstract" class="center-content abstract-content">
+        <h2>Abstract</h2>
+        <p>Although Multi-Agent Reinforcement Learning (MARL) is effective for complex multi-robot tasks, it suffers from low sample efficiency and requires iterative manual reward tuning. Large Language Models (LLMs) have shown promise in single-robot settings, but their application in multi-robot systems remains largely unexplored. This paper introduces a novel LLM-Aided MARL (LAMARL) approach, which integrates MARL with LLMs, significantly enhancing sample efficiency without requiring manual design. LAMARL consists of two modules: the first module leverages LLMs to fully automate the generation of prior policy and reward functions. The second module is MARL, which uses the generated functions to guide robot policy training effectively. On a shape assembly benchmark, both simulation and real-world experiments demonstrate the unique advantages of LAMARL. Ablation studies show that the prior policy improves sample efficiency by an average of 185.9% and enhances task completion, while structured prompts based on Chain-of-Thought (CoT) and basic APIs improve LLM output success rates by 28.5%-67.5%.</p>
+    </section>
+
+    <!-- Section for Video -->
+    <section id="video" class="center-content video-content">
+        <h2>Video</h2>
+        <div class="video-container video-content">
+            <figure class="video1_1 category1">
+                <video width="900" height="450" controls loop autoplay muted>
+                    <source src="videos/video_RAL.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </figure>
+        </div>
+    </section>
+
+    <section id="methodology" class="center-content">
+        <h2>Methodology</h2>
+        <!-- Section for Image -->
+        <section id="image" class="center-content">
+            <figure>
+                <img src="images/framework.jpg" width="900" height="500" alt="PDF Image" class="center-image">
+                <!-- <figcaption>Framework Diagram</figcaption> -->
+            </figure>
+        </section>
+
+    </section>
+    <section id="results" class="center-content">
+        <h2>Results</h2>
+        <p>To be completed.</p>
+    </section>
+    <footer class="center-content">
+        <p>&copy; Year Guobin Zhu</p>
+    </footer>
+</body>
+</html>
