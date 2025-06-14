@@ -1,6 +1,8 @@
-<div align="center">
+<center>
+
 # LAMARL: LLM-Aided Multi-Agent Reinforcement Learning for Cooperative Policy Generation
-</div>
+
+</center>
 
 <div align="center">
 
